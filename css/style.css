@@ -1,0 +1,145 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+body {
+  background-image: url("circle-blues.png");
+  background-repeat: repeat-y;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background-color: #cccccc;
+
+}
+
+header{
+  font-family:'Georgia','Times','Times New Roman','serif';
+ width:100%;
+ height:80px;
+ background:#ffffff;
+ margin-bottom:20px;
+}
+
+
+.the_header{
+  height:80px;
+  width:960px;
+  background: #ffffff;
+  margin:0 auto;
+}
+
+.your_name{
+  height:80px;
+  width:25%;
+  background:#4aaaa5;
+  color:#ffffff;
+  float:left;
+  text-align:center;
+  line-height:40px;
+}
+
+h1{
+  font-size:36px;
+}
+.navigation{
+  
+  height:45px;
+  width:50%;
+  padding-top:5px;
+  padding-right:10px;
+  background:white;
+  color:grey;
+  text-align: right;
+  float:right;
+}
+
+h2 {
+  width:95%;
+  padding-top:35px;
+  padding-bottom:20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #4aaaa5;
+  text-align: left;
+  border-bottom:3px solid #dddddd;
+}
+
+
+a {
+  font-size:16px;
+  text-decoration: none;
+  color:#dddddd;
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  background:#666666;
+  margin-top:30px;
+  padding-top:15px;
+  padding-bottom:5px;
+  height:20px;
+  width:100%;
+  border-top: 8px solid #4aaaa5;
+  position:fixed;
+  bottom:0px;
+}
+p{
+  margin-left:20px;
+  font-size:20px;
+  line-height:45px;
+  
+}
+.img{
+  margin-top:15px;
+  margin-left:20px;
+  margin-right:20px;
+  float:left;
+}
+.box{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#ffffff;
+  height:900px;
+  width:960px;
+  margin-bottom:30px;
+  margin:0 auto;
+  margin-bottom:80px;
+}
+
+.box_0{
+  height:100px;
+  width:300px;
+  visibility: hidden;
+}
+
+.box_1{
+  
+  height:200px;
+  width:300px;
+  float:left;
+  margin:20px;
+  margin-top:10px;
+}
+
+.box_2{
+  color:white;
+  text-align:center;
+  line-height:60px;
+  background:#4aaaa5;
+  opacity:5%;
+  font-size:36;
+  height:60px;
+  width:300px;
+  position:relative;
+  bottom:40%;
+}
