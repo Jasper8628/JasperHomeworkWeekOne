@@ -131,10 +131,15 @@ button{
   margin-bottom:80px;
 }
 
+
 .box_0{
-  height:100px;
-  width:300px;
-  visibility: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#ffffff;
+  height:800px;
+  width:960px;
+  margin-bottom:30px;
+  margin:0 auto;
+  margin-bottom:80px;
 }
 
 .box_1{
