@@ -9,7 +9,7 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 
 body {
-  background-image: url("circle-blues.png");
+  background-image: url(circle-blues.png);
   background-repeat: repeat-y;
   padding: 0;
   margin: 0;
@@ -17,7 +17,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background-color: #cccccc;
+  
 
 }
 
